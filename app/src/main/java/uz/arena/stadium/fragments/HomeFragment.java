@@ -16,6 +16,7 @@ import uz.arena.stadium.fragment_menu.TennisFragment;
 public class HomeFragment extends Fragment {
     Button btn_tennis, btn_bowling, btn_add;
 //Akbarali Khasanov
+    //Salom
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     private String mParam1;
