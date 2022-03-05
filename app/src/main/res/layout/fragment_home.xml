@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:elevation="20dp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_btn"
+                android:buttonTint="@color/menu"
+                android:checked="true"
+                android:text="Football"
+                android:textColor="#405CBF"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_btn"
+                android:buttonTint="@color/menu"
+                android:text="Tennis"
+                android:textColor="#405CBF"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_btn"
+                android:buttonTint="@color/menu"
+                android:text="Bowling"
+                android:textColor="#405CBF"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_btn"
+                android:buttonTint="@color/menu"
+                android:text="Add sport"
+                android:textColor="#405CBF"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
